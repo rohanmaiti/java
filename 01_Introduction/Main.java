@@ -1,6 +1,6 @@
 public class Main{
     public static void main(String []args){
-        System.out.println("Hello Rohan");
+        // System.out.println("Hello Rohan");
         // datatypes in java
         /**
          * 1. premitive (8) || boolean , byte ,short , int , long , char , float , double
@@ -23,9 +23,16 @@ public class Main{
     Default value: '\u0000'*/
     // char letter = '\u0051';
     // System.out.println(letter);  // prints Q
-
-
-    
-
+  
+    Integer a = 10;
+    int b = a;
+    b = 20;
+    System.out.println(a);
+    changeA(a);
+    System.out.println(a);
+    }
+    static void changeA(Integer a){
+    a = 20;
     }
 }
+
