@@ -1,4 +1,6 @@
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -77,21 +79,21 @@ public static void main(String args[]){
     s.add(30);
     s.add(20);
     s.add(10);
-    System.out.println(s);
+    // System.out.println(s);
     // // s.remove(10);
     // System.out.println(s);
 
-    System.out.println(s.contains(20));
-    System.out.println( s.size());
+    // System.out.println(s.contains(20));
+    // System.out.println( s.size());
     // s.clear();
     // System.out.println(s);
     
 
     // s.addAll(Collection)
-    for(int i : s){
-        System.out.print(i+"-");
-    }
-    System.out.println();
+    // for(int i : s){
+    //     System.out.print(i+"-");
+    // }
+    // System.out.println();
     
     // Collection<Integer> s2 = new TreeSet<>(); // we can store variable of TreeSet in Collection as Collection is the parent of it ;
     // s2.add(10);
@@ -112,22 +114,22 @@ public static void main(String args[]){
     // }
 
 
-    // Map<Character,Integer> m = new HashMap<Character,Integer>();
+    Map<Character,Integer> m = new HashMap<Character,Integer>();
 
-    // m.put('a',10);
-    // m.put('b',20);
-    // m.put('c',40);
-    // m.put('d',10);// overwrite it 
+    m.put('a',10);
+    m.put('b',20);
+    m.put('c',40);
+    m.put('d',10);// overwrite it 
 
     // // m.remove('a');
-    // System.out.println(m);
+    System.out.println(m);
     // System.out.println(m.keySet());  
     // System.out.println(m.values());  
     // System.out.println(m.containsKey('e'));  
     // System.out.println(m.containsValue(10));  
 
 
-    // System.out.println(m.get('a'));
+    System.out.println(m.get('x'));
     // System.out.println(m.get("a"));
 
     // System.out.println(m.keySet());

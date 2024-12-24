@@ -4,13 +4,13 @@ public class Main2{
         // StringBuilder sb2 = new StringBuilder(32); // It generates a new, empty String Builder with the provided length for capacity.
         // System.out.println(sb1.capacity());
         // System.out.println(sb2.capacity());
-        // StringBuilder sb3= new StringBuilder("rohan");
+        StringBuilder sb3= new StringBuilder("rohan");
         // System.out.println(sb3.toUpperCase()); // error
         
-        // String s = "rohan" ;
+        String s = "nahor" ;
         // System.out.println(s == sb3.toString());
         // System.out.println(s.equals(sb3.toString()));
-        // System.out.println(s.contentEquals(sb3));
+        System.out.println(s.contentEquals(sb3.reverse()));
 
         // sb3.ensureCapacity(65);
 
@@ -35,7 +35,7 @@ public class Main2{
         // System.out.println("length : "+sb.length() + " , capacity : "+sb.capacity());
 
 
-        // ***** sb.insert(int offset, String s || char c)
+        // ***** sb.insert(int offset, String s || char c || number)
         // StringBuilder sb = new StringBuilder("012345");
         // sb.insert(2,'a'); // can insert char 
         // sb.insert(2,"abc"); // can insert string
@@ -104,10 +104,10 @@ public class Main2{
 
 
         // ********* sb.delete(startIndex , endIndex+1) ;
-        // StringBuilder sb = new StringBuilder("0123456789");
-        // System.out.println(sb.delete(0,6)) ; // delete from 0 to 6-1 and return the changed string;
+        StringBuilder sb = new StringBuilder("0123456789");
+        System.out.println(sb.delete(0,6)) ; // delete from 0 to 6-1 and return the changed string;
         // System.out.println(sb.delete(6)) ; // has two paramiter , so error
-        // System.out.println(sb) ; // return the changed string;
+        System.out.println(sb) ; // return the changed string;
 
 
 

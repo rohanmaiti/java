@@ -24,15 +24,36 @@ public class Main{
     // char letter = '\u0051';
     // System.out.println(letter);  // prints Q
   
-    Integer a = 10;
-    int b = a;
-    b = 20;
-    System.out.println(a);
-    changeA(a);
-    System.out.println(a);
+    // Integer a = 10;
+    // int b = a;
+    // b = 20;
+    // System.out.println(a);
+    // changeA(a);
+    // System.out.println(a);
+    
+    // int a;
+    // System.out.println(a);
+
+    
+    // A obj = new A();
+    // obj.a = 10;
+    // obj.b = 20;
+
+    // A obj2 = new A();
+    // obj2 = obj;
+
+    // obj2.a = 100;
+    // System.out.println(obj.a + " "+ obj.b);
+    // System.out.println(obj2.a + " "+ obj2.b);
+
     }
-    static void changeA(Integer a){
-    a = 20;
-    }
+    // static void changeA(Integer a){
+    // a = 20;
+    // }
+}
+
+class A{
+    int a;
+    int b;
 }
 

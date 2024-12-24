@@ -27,5 +27,10 @@ public class Main{
         // System.out.println(sb);
         // String str = sb.toString();
         // System.out.println(str);
+
+        String s = 10 + "#";
+        char c = 'x';
+        s += c;
+        System.out.println(s);
     }
 }

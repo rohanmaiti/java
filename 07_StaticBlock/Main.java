@@ -27,6 +27,7 @@ class A{
 }
 class B extends A{
 B(){
+    // super();
     System.out.println("Default constractor of B called");
 }
 } 

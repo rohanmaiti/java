@@ -10,7 +10,6 @@ public class Main{
          inputBST(root, 10);
          inputBST(root, 7);
          inputBST(root, 1);
-
          printLevelOrder(root);
     }
 

@@ -1,4 +1,5 @@
-import java.util.*;
+
+
 public class Main3{
     public static void main(String []args){
         // String s1 = "Rohan Maiti";
@@ -33,13 +34,18 @@ public class Main3{
         //     System.out.println(str);
         // }
 
-        String s2 = "hii   rohan  How are you";
-        System.out.println(Arrays.toString(s2.split("\\s+")));
+        // String s2 = "hii   rohan  How are you";
+        // System.out.println(Arrays.toString(s2.split("\\s+")));
 
         // ******** when delemiter is a special character *****
-        // String s = "a+b+c+d";
+        // String s = "10+9+7+7";
         // String arr[] = s.split("\\+");
         // System.out.println(Arrays.toString(arr));
+
+        // String n = "100";
+        // int num = Integer.parseInt(n);
+        // num += 20;
+        // System.out.println(num);
 
 
         // ********* compareTo();
@@ -54,7 +60,7 @@ public class Main3{
         //  int result;
      
          // comparing str1 with str2
-        //  result = str1.compareTo(str2);
+        //  result = str2.compareTo(str1);
         //  System.out.println(result);
 
 
@@ -62,7 +68,10 @@ public class Main3{
         // String str1 = "bat ball bat ball bat ball";
         // replace b with c
         // System.out.println(str1.replace('b', 'c'));     // replace all occuaance
+        // System.out.println(str1);                       // does not change in original string
         // System.out.println(str1.replace("bat","cat"));  // replace all occurance
+        // System.out.println(str1);                       // does not change in original string
+
 
         // if replacing word is not present in the string  then returns the original string 
         // System.out.println(str1.replace("cow","cat"));  
@@ -71,7 +80,7 @@ public class Main3{
         // System.out.println("zzz".replace("zz", "x")); // xz
 
         // replace vs replaceAll
-        // System.out.println(str1.replaceAll('b', 'c')); 
+        // System.out.println(str1.replaceAll('b', 'c'));   
         // System.out.println(str1.replaceAll("bat","cat"));  // replace all occurance
         // System.out.println(str1.replace("bat","cat"));    // replace all occurance
 
@@ -80,16 +89,16 @@ public class Main3{
         // System.out.println(str1.replaceFirst('b','c'));   // argument string, string , so give error 
 
         // ***** replace all degits with empty string
-        String str1 = "Learn83838Java26263730";
-        String result;
-        result = str1.replaceAll("\\d", "");
-        System.out.println(result); 
+        // String str1 = "Learn83838Java26263730";
+        // String result;
+        // result = str1.replaceAll("\\d", "");
+        // System.out.println(result); 
 
 
         // **** substring(index , index);
         // String s = "0123456789101112";
-        // System.out.println(s.substring(2,5)); // 2 - (5-1)
-        // System.out.println(s.substring(2)); // from index to last
+        // System.out.println(s.substring(2,7)); // 2 to (7-1)
+        // System.out.println(s.substring(4)); // from index to last
         // System.out.println(s.substring(2,16)); // from index to last
 
         // System.out.println(s.substring(2,100)); // out of bound exception
@@ -97,6 +106,7 @@ public class Main3{
         // ***** contains() ****  returns true or false 
         // String str1 = "Java String contains()";
         // boolean result = str1.contains("Java");
+        // boolean result = str1.contains('J'); // only takes string as args .... so error
         // String s = "Java";
         // boolean result = str1.contains(s);
         // System.out.println(result);
@@ -109,7 +119,7 @@ public class Main3{
 
         // ***** indexOf(char) || string.indexOf(int ch, int fromIndex) *** 
         // String s = "0123456789101112131415";
-        // System.out.println(s.indexOf('5'));  // can search character
+        // System.out.println(s.indexOf('5',6));  // can search character
         // System.out.println(s.indexOf('k'));  // if not present retrun -1 
         // System.out.println(s.indexOf("567")); // can search string and will return the satarting index of the string or return -1;
         // System.out.println(s.indexOf("rohan"));
@@ -128,11 +138,13 @@ public class Main3{
         
         // String str1 = "   Learn Java Programming      ";
         // System.out.println(str1.trim());
+        // System.out.println(str1);  // does not change in original string 
 
         // ******** toLowerCase();
         // String str1 = "JAVA PROGRAMMING";
-        // // convert to lower case letters
-        // System.out.println(str1.toLowerCase());
+      //  // convert to lower case letters
+        // System.out.println(str1.toLowerCase());  // do not change in original string 
+        // System.out.println("rohan".toUpperCase());
         // String str2 = "rohan maiti";
         // System.out.println(str2.toUpperCase());
 
@@ -167,7 +179,7 @@ public class Main3{
     // int offset = 2;
     // int length = 4;
     // String result;
-    // // subarray {'o', 'g', 'r', 'm'} is converted to string
+    // // subarray {'o', 'g', 'r', 'a'} is converted to string
     // result = String.valueOf(ch, offset, length);
     // System.out.println(result);  // "ogrm"
 
@@ -180,7 +192,7 @@ public class Main3{
      
     // Java startsWith() With Offset Parameter
     // String str = "Java Programming";
-    // // checks in substring "a Programming"
+    // checks in substring "a Programming"
     // System.out.println(str.startsWith("Java", 3)); // false
     // System.out.println(str.startsWith("a Pr", 3)); // true
 
@@ -247,13 +259,14 @@ public class Main3{
     
 
     // ******************************* ************************** ******************* ****************
-    // System.out.println("a".toUpperCase())
-    // char c = ('a'-32);
-    // System.out.println(c);
-    // StringBuilder sb = new StringBuilder("abc");
-    // c = sb.charAt(0);
+    System.out.println("a".toUpperCase());
+    System.out.println(Character.toUpperCase('a'));
+    char c = ('a'-32);
+    System.out.println(c);
+    StringBuilder sb = new StringBuilder("abc");
+    c = sb.charAt(0);
 
-    // System.out.println(c);
+    System.out.println(c);
     // StringBuilder sb = new StringBuilder("abc");
     // char firstChar = sb.charAt(0);
     // System.out.println(firstChar);
@@ -311,9 +324,7 @@ public class Main3{
     //         sum = 10;
     //         for (i = -1; i < 3 ;++i)
     //             sum = (sum / i);
-    //     }
-   
-        
+    //     }  
     //     // System.out.print(sum);
     // }
 // }

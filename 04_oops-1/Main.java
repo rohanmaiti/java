@@ -1,3 +1,4 @@
+// public class Main{
 //     public static void main(String []args){
 //       B obj = new B();
 //       obj.print();
@@ -5,14 +6,14 @@
 // }
 
 // class A{
-//     final void printA(){
+//       final void printA(){
 //         System.out.println("In A");  
 //     }
 // }
 // class B extends A{
 //     void print(){
 //         System.out.println("In B");
-//         // super.print();
+//         // super.printA();
 //     }
 // }
 
@@ -36,8 +37,8 @@ class Student{
     public String name ;
     public int id;
 }
-public class Main{
-    public static void main(String []args){
+// public class Main{
+//     public static void main(String []args){
     //Method overloading 
     // A obj = new A();
     // System.out.println(obj.add(10,20));
@@ -77,17 +78,53 @@ public class Main{
 
 
 
-     B obj = new B();
-     obj.print();
+//      B obj = new B();
+//      obj.print();
 
-    }
-}
-class A{
-    A(){System.out.println("Default constructor of A called");}
-    protected void print(){
-    System.out.println("print function");
-    }
-}
-class B extends A{
+//     }
+// }
+// class A{
+//     A(){System.out.println("Default constructor of A called");}
+//     protected void print(){
+//     System.out.println("print function");
+//     }
+// }
+// class B extends A{
 
-}
+// }
+
+
+
+
+
+// method overloading 
+// public class Main{
+//     public static void main(String []args){
+//     A obj = new A();
+//     System.out.println(obj.getData());
+//     }
+// }
+
+// class A{
+//     int a;
+//     String name;
+//     int getData(int a1,String name1){
+//         a = a1;
+//         name = name1;
+
+//         return 1;
+//     }
+//      void getData(String name1,int a1){
+//         a = a1;
+//         name = name1;
+//     }
+//     void getData(int a1){
+//         a = a1;
+//     }
+//     void getData(String n1){
+//         name = n1;
+//     }
+//     int getData(){  // it will not give error 
+//         return 1;
+//     }
+// }
