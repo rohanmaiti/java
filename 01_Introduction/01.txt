@@ -1,0 +1,71 @@
+what is JVM , JRE , JDK, JIT ??
+>>
+JVM (Java Virtual Machine):
+It is the runtime environment in which Java bytecode is executed. JVM is platform-dependent and provides a layer of abstraction between Java code and the underlying hardware.
+
+JRE (Java Runtime Environment):
+It includes the JVM and the standard libraries needed to run Java applications. It provides the environment to execute Java programs but does not include tools for development.
+
+JDK (Java Development Kit):
+It is the full development kit for Java, including the JRE, development tools (e.g., compilers, debuggers), and libraries. It is used to develop, compile, and debug Java applications.
+
+JIT (Just-In-Time Compiler):
+It is a component of the JVM that improves performance by converting bytecode into native machine code at runtime, enabling faster execution of Java programs.
+
+***
+
+
+Local variable : 
+The variable that are defined within the methods of a body is calle local variable, scope : inside the body. No other function is aware of that variable;
+*can't add static keyword in a local variable
+
+instance variable : 
+class Abc{
+    int a;
+    float b; // these are instance variable 
+}
+
+static variable : that variable that has the common memory acess to the all the objects/instances of the class.
+class Abc{
+    static int a; // this is static variable 
+    float b; // these are instance variable 
+}
+** memory allocation for the static variable done onece when the class is loaded in the memory
+
+
+
+
+************
+Source File Name:
+The name of a source file should exactly match the public class name with the extension of . java. The name of the file can be a different name if it does not have any public class. Assume you have a public class GFG.
+
+GFG.java // valid syntax
+gfg.java // invalid syntax
+
+
+***********
+6. Method Names
+All the method names should start with a lowercase letter (uppercase is also allowed but lowercase is recommended).
+If several words are used to form the name of the method, then each first letter of the inner word should be in Uppercase. Underscores are allowed, but not recommended. Also allowed are digits and currency symbols.
+public void employeeRecords() // valid syntax
+public void EmployeeRecords() // valid syntax, but discouraged
+
+************
+Legal identifiers: MinNumber, total, ak74, hello_world, $amount, _under_value
+Illegal identifiers: 74ak, -amount
+
+
+*************
+Steps to Implement Java Program
+Implementation of a Java application program involves the following steps. They include:
+
+Creating the program
+Compiling the program // compiler converts the code into bytecode and then interpretor run the bytecode and gives output 
+Running the program // 
+
+
+*******
+Why char uses 2 bytes in Java and what is \u0000?
+ Char uses 2 bytes in java because it uses the Unicode system rather than the ASCII system. “\u000” is the lowest range of the Unicode system. 
+
+

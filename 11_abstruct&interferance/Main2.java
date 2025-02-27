@@ -6,7 +6,6 @@ public class Main2{
         System.out.println("Drawing...");
      }
     } ; // while we are writing this syntex like new A(){} then we are not creating an  obj of A we are creating a obj of an annonimus class 
-
     obj.draw();
     }
 }

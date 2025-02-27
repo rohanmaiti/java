@@ -20,7 +20,7 @@ public class Main{
         // name += " Maiti";
         // System.out.println(name);
 
-
+        
         // StringBuffer sb = new StringBuffer("Rohan");
         // sb.append(" Maiti");
         // sb.deleteCharAt(1);
@@ -28,9 +28,9 @@ public class Main{
         // String str = sb.toString();
         // System.out.println(str);
 
-        String s = 10 + "#";
-        char c = 'x';
-        s += c;
-        System.out.println(s);
+        // String s = 10 + "#";
+        // char c = 'x';
+        // s += c;
+        // System.out.println(s);
     }
 }

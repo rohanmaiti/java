@@ -12,8 +12,8 @@ public class Main3{
     // obj2.swim();
     // obj2.show();
      
-    x obj = new F();
-    obj.mq();
+    // x obj = new F();
+    // obj.mq();
     // x.m3();
     // obj.m3();
    
@@ -21,11 +21,11 @@ public class Main3{
 }
 
 interface x{
-    default void mq(){
+    public default void mq(){
         System.out.println("default method can have body");
     }
     static void m3(){
-        System.out.println("staatic method also have body");
+        System.out.println("static method also can have body");
     }
 }
 
@@ -38,9 +38,10 @@ void m3(){
 interface C{
      void swim();
 }
+
 interface A{  // can't instanstialte 
 
-    // we can declare variable also but they are by default final and static 
+    // we can declare variable also but they are by default :-> final and static 
     int a = 30;
     String name = "Rohan"; 
 

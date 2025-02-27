@@ -1,6 +1,6 @@
 public class Main{
 public static void main(String []args){
-    A obj = new C(10);
+    C obj = new C(10);
 
 }
 }
@@ -24,7 +24,7 @@ class B extends A{
 }
 class C extends B{
     C(){
-        // super();
+        // super(); // by default
         System.out.println("Inside C");
     }
     C(int a){

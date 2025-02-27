@@ -1,5 +1,4 @@
-
-
+import java.util.ArrayList;
 
 public class Main2{
     public static void main(String []args){
@@ -59,6 +58,10 @@ public class Main2{
         // System.out.println(list);
         // System.out.println(list.peek()); 
         // System.out.println(list.get(2));
+
+        // *** some extra of List
+        // List<Integer> l = new ArrayList<>(List.of(1,2,3));
+        // System.out.println(l);
         // *** Stack 
         // Stack<Integer> stk = new Stack<>();
         // stk.push(10);

@@ -1,21 +1,21 @@
-// public class Main{
-//     public static void main(String []args){
-//       B obj = new B();
-//       obj.print();
-//     }
-// }
+public class Main{
+    public static void main(String []args){
+      B obj = new B();
+      obj.print();
+    }
+}
 
-// class A{
-//       final void printA(){
-//         System.out.println("In A");  
-//     }
-// }
-// class B extends A{
-//     void print(){
-//         System.out.println("In B");
-//         // super.printA();
-//     }
-// }
+class A{
+      final void printA(){
+        System.out.println("In A");  
+    }
+}
+class B extends A{
+    void print(){
+        System.out.println("In B");
+        // super.printA();
+    }
+}
 
 // method overloading 
 // class A{
