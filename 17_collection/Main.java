@@ -1,15 +1,8 @@
-
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
-
-
-
-
-
-
-
 public class Main{
 public static void main(String args[]){
     // Collection c = new ArrayList<>();
@@ -28,7 +21,7 @@ public static void main(String args[]){
     // c.add(10);
     // c.add(20);
     // c.add(30);
-    // // c.add("40");
+    // c.add("40");
     // System.out.println(c);
 
     // for(Object i : c){
@@ -72,7 +65,7 @@ public static void main(String args[]){
 
     /* ************ */ 
     //Set does not have index values and unorganised and also not sorted and does not contain repeated values
-    Set <Integer> s = new TreeSet<>();
+    Set <Integer> s = new HashSet<>();
     s.add(10);
     s.add(10);
     s.add(40);

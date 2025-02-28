@@ -45,7 +45,7 @@ public class Main{
     
     // In java every local variable must be initialised or else it will throw an error 
     int a;
-    System.out.println(a);
+    // System.out.println(a);
 
     
     A obj = new A();
