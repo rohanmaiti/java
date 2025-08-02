@@ -2,7 +2,7 @@
 package com.animal;
 public class Animal {
     public static void bark(){
-        System.out.println("woh woh!!");
+        System.out.println("Animal barks --> woh woh!!");
     }
     
 }
