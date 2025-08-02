@@ -33,7 +33,7 @@
 //     }
 // }
 
-// *inside a static method , cant use a non static variable or method 
+// *inside a static method , can't use a non static variable or method 
 // public class Main2{
 //     static int a = 10; // can initialise like this as well
 //     int b;
