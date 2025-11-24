@@ -1,5 +1,5 @@
 
-import java.util.Scanner; // or taking input has to import scanner class
+import java.util.Scanner; // for taking input has to import scanner class
 /**
  *Difference between println(), print() and printf()
   print() - It prints string inside the quotes.
