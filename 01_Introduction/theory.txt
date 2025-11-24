@@ -80,4 +80,11 @@ Running the program //
 Why char uses 2 bytes in Java and what is \u0000?
  Char uses 2 bytes in java because it uses the Unicode system rather than the ASCII system. “\u000” is the lowest range of the Unicode system. 
 
+*******
+COMMON WAY TO EXECUTE JAVA FILE 
+>> javac Main.java
+>> java Main
+
+or both the line in one command 
+java Main.java
 
