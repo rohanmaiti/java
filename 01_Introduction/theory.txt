@@ -42,6 +42,18 @@ The name of a source file should exactly match the public class name with the ex
 GFG.java // valid syntax
 gfg.java // invalid syntax
 
+************
+# How we execute a java program ? 
+step-1: create a .java file (can be of any name)...
+step-2: write a class (can be of any name if there is no public class)
+step-3: now the .java file needs to be converted to byte code, so that JVM can execute the byte code
+step-4: now compile the file (.java file) --> it will generate .class files (which contains byte codes)
+these .class files are platform independent, if you share these files in another system which has JVM and execute them, you can see output...
+step-5: now have to execute the class which has main() method .... like this `java Abc` (this line tells the JVM to seach for Abc class and execute that)
+how this starts execute ? --> in the Abc class it will search for main method as this is the entry point of the program... if not found then will give error  
+
+
+
 
 ***********
 6. Method Names
