@@ -1,32 +1,44 @@
 public class Variable {
     static int a = 10;
-    public static void main(String []args){
-        System.out.println(a);
-        // nonStaticMethod();  // non-static method nonStaticMethod() cannot be referenced from a static context
+    int i = 10;
 
- 
-        System.out.println(A.b); // static variabel / methods can be used without creating object of the class 
-        // System.out.println(A.a); // non static variable can not be used without creating a object of the class
-        
-        // static methods can be used without creating object of the class like below 
+    public static void main(String[] args) {
+        System.out.println(a); 
+        // System.out.println("i: " + i); // inside a static funciton we can not use a not static variable or member function
+        // int i2 = 10 + i; // not even we use a non static variable or function  
+        // nonStaticMethod(); // non-static method nonStaticMethod() cannot be
+        // referenced from a static context
+
+        System.out.println(A.b); // static variabel / methods can be used without creating object of the class
+        // System.out.println(A.a); // non static variable can not be used without
+        // creating a object of the class
+
+        // static methods can be used without creating object of the class like below
         // A.print();
-        // non static methods can not  be used without creating object of the class like below 
+        // non static methods can not be used without creating object of the class like
+        // below
         // A.method();
-        // to call non static method we have to make object of the class and then call it 
-        // A obj  = new A();
+        // to call non static method we have to make object of the class and then call
+        // it
+        // A obj = new A();
         // obj.method();
     }
-    public void nonStaticMethod(){
-        System.out.println(a); // non-static method nonStaticMethod() cannot be referenced from a static context
+
+    public void nonStaticMethod() {
+        System.out.println(a); // non-static method nonStaticMethod() cannot be referenced from a static
+                               // context
     }
 }
-class A{
+
+class A {
     int a = 101;
     static String b = "static variable";
-    static void print(){
+
+    static void print() {
         System.out.println("Print");
     }
-    void method(){
+
+    void method() {
         System.out.println("Method");
     }
 }
