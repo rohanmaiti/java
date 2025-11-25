@@ -101,41 +101,49 @@
 //     }
 // }
 
-
 // *MCQ
-    class A{
-        int a = 10;
-        void print(){
-            System.out.println("A");
-        }
+class A {
+    int a = 10;
+
+    void print() {
+        System.out.println("A");
     }
-    class B extends A{
-        void print(){
-            // super.print(); // as in super class print function has private access so cant access and will throw an error
-            System.out.println("B");
-        }
-        void callSuperPrint() {
-            super.print(); // Calls A's print method
-        }
+}
+
+class B extends A {
+    void print() {
+        // super.print(); // as in super class print function has default access so can
+        // access and will not throw error
+        System.out.println("B");
     }
-    class C extends B{
-        void print(){
-            // super.super.print(); // in java there is no direct way to access a grandparent's method like this
-            // However, you can achieve this by defining an intermediate method in class B that explicitly calls super.print(), and then calling that method from class C.
-            callSuperPrint();
-            System.out.println("C");
-        }
-        void printA(){
-            System.out.println(this.a);
-        }
+
+    void callSuperPrint() {
+        super.print(); // Calls A's print method
     }
-    public class Main{
-        public static void main(String []args){
+}
+
+class C extends B {
+    void print() {
+        // super.super.print(); // in java there is no direct way to access a
+        // grandparent's method like this
+        // However, you can achieve this by defining an intermediate method in class B
+        // that explicitly calls super.print(), and then calling that method from class
+        // C.
+        callSuperPrint();
+        System.out.println("C");
+    }
+
+    void printA() {
+        System.out.println(this.a);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
         C obj = new C();
         obj.print();
         obj.printA();
         obj.a = 100;
         obj.printA();
-        }
     }
-
+}
