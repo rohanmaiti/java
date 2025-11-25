@@ -1,8 +1,8 @@
 // *RUN TIME POLIMORPHYSM
 // class A{
-    // void show(){
-    //     System.out.println("A show");
-    // }
+//     void show(){
+//         System.out.println("A show");
+//     }
 // }
 
 // class B extends A{
@@ -17,14 +17,14 @@
 // }
 // public class Main4 {
 //     public static void main(String []args){
-    // <example-01 start here>    
-    // A obj = new B();
-    // if the reference object of parent then every methods of child should be present at parent class
-    // obj.show();
-     // <example-01 ends here>    
+//     // <example-01 start here>    
+//     A obj = new B();
+//     // // if the reference object of parent then every methods of child should be present at parent class
+//     obj.show();
+//     //  <example-01 ends here>    
 
-    //  A obj2  = new C();
-    //  obj2.show();
+//      A obj2  = new C();
+//      obj2.show();
 //     }
 // }
 

@@ -44,5 +44,5 @@ class B extends A{
     int b;
 }
             
-// when we are creating obj of B , b's default constructor get called and default's constructor's 1st statement is super 
+// when we are creating obj of B , b's default constructor get called and default's constructor's 1st statement is super()  
 // so A's constructor get called;
