@@ -1,6 +1,6 @@
 // ******** THEORY *******
 /*
-* 1. The abstract class in Java cannot be instantiated (we cannot create objects of abstract classes). 
+* 1. The abstract class in Java cannot be instantiated (we cannot create objects of abstract classes). also can have constructor
 *    We use the abstract keyword to declare an abstract class.
 * 2. An abstract class can have both the regular methods and abstract methods.
 * 3. If a class contains an abstract method, then the class should be declared abstract.
