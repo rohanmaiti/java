@@ -14,11 +14,11 @@ class A{
 }
 class B extends A{
     B(){
-        // super() by default 
+        // super() // by default this is here
         System.out.println("Inside B");
     }
     B(int a){
-        // super(a);
+        // super(a); // by default this is here 
         System.out.println("Inside B int");
     }
 }
