@@ -13,12 +13,12 @@ public class Variable2 {
         // long a = 123456789123L; // no error | added L at last
         // System.out.println(a);
 
-        // *RULE 2 : for float
+        // *RULE 3 : for float
         // any float value is treated as double literal so have to explecitely tell that it is a float by adding f at last
         // float f = 2.5; // error 
         // float f = 2.5f;// no error
 
-        // *RULE 3 : char
+        // *RULE 4 : char
         // have to write inside single cote , if write inside double cote then will throw an error
         // char c = "c"; // error
         // char c = 'c'; // no error

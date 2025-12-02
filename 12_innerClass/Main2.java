@@ -19,20 +19,20 @@ class B extends A{
 // just to change the behavoiur of A we are defining another class .
 // now what we can do is like this in below 
 
-public class Main2{
-    public static void main(String []args){
-        A obj = new A()
-        {
-            void print(){
-                System.out.println("Print B");
-            }
-        };
-        obj.print();
-    }
-}
-class A{
-    void print(){
-        System.out.println("Print A");
-    }
-}
+// public class Main2{
+//     public static void main(String []args){
+//         A obj = new A()
+//         {
+//             void print(){
+//                 System.out.println("Print B");
+//             }
+//         };
+//         obj.print();
+//     }
+// }
+// class A{
+//     void print(){
+//         System.out.println("Print A");
+//     }
+// }
 

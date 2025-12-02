@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 
 
-public class Main{
+public class Main4{
     public static void main(String []args){
         // String s1 = new String("hello rohan ");
         // String s2 = "Hello";
