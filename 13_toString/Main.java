@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String []args){
     A obj = new A();
-    System.out.println(obj);
+    System.out.println(obj); // this automatically calls the toString method if present else prints address
     }
 }
 class A{
