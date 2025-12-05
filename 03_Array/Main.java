@@ -51,6 +51,18 @@ public class Main{
         // hence change in any array will affect the 2nd array... this is called // * shallow copy 
         // copying each value to a new array by loop is //* Deep copy */
         
+        // * System.arraycopy() method 
+        // * syntax : 
+        // * System.arraycopy(sourceArray_name, source_array_starting_index, destination_array_name, destination_array_starting_index, length_to_copy);
+        // example 
+        int arr1[] = new int[] {0,1,2,3,4,5,6};
+        int arr2[] = new int[] {10,20,30,40};
+        // now copy thr arr1 from 2 index to 5 index and incert it to arr2 from 2 index
+        System.arraycopy(arr1, 2, arr2, 2, 4);
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
 
+    
+        
     }
 }

@@ -88,3 +88,13 @@ COMMON WAY TO EXECUTE JAVA FILE
 or both the line in one command 
 java Main.java
 
+
+
+ * QUESTION 
+Q. in java when we print something we write --> System.out.println() what is System here ?
+>> System is a final class in java.lang package that provides access to system-level functionality like input, output, error streams, environment variables, etc.
+
+* Q. java.lang class is imported by default ... like we need not to import it to use System in any file ?
+    Yes, correct.
+    java.lang package is automatically imported by Java for every source file.
+
