@@ -47,5 +47,10 @@ public class Main{
         // var s = "string";
         // System.out.println(s);
 
+        // in java array are of reference type means copying a array like a = b will copy the referance and 
+        // hence change in any array will affect the 2nd array... this is called // * shallow copy 
+        // copying each value to a new array by loop is //* Deep copy */
+        
+
     }
 }
