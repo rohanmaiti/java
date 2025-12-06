@@ -49,7 +49,7 @@
 // step 5: then s2 will get memory in stack and will points to 2004
 
 // so if you do (s1 === s2) you will get false as they points to different addresses...
-// now for s3, s3 will get memory in stack and will point to previously created "abc" in SCP that is address 1001; same for s4
+// now for s3, s4 will get memory in stack and will point to previously created "abc" in SCP that is address 1001; same for s4
 // now if you do (s1 == s3) still it will give false as they are pointing to different addresses
 // but if you do (s3 == s4) you will get true as they are pointing to the same address at SCP ie 1001
 

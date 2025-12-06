@@ -1,3 +1,7 @@
+// * as string are immutable in java, so everytime we change any thing a whole new object is being created 
+// * to solve this issue we have string builder and string buffer in java that are mutable 
+
+
 class Main{
     public static void main(String []args){
         // StringBuilder s = new StringBuilder("rahul maiti");
