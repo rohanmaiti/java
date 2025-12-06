@@ -9,6 +9,12 @@ public class Main3{
         // System.out.println(s.length());
         // System.out.println(s3)
         // System.out.println(s1.concat(s2));
+
+        // String str1 = "Rohan";
+        // String str2 = "Rohan";
+        // if (str1 == str2) {
+        //   System.out.println("Equal");
+        // }
     
         // ***** equals() and equalsIgnoreCase() ******** 
         // String first = "java programming";
@@ -89,10 +95,10 @@ public class Main3{
         // System.out.println(str1.replaceFirst('b','c'));   // argument string, string , so give error 
 
         // ***** replace all degits with empty string
-        String str1 = "Learn83838Java26263730";
-        String result;
-        result = str1.replaceAll("\\d", "");
-        System.out.println(result); 
+        // String str1 = "Learn83838Java26263730";
+        // String result;
+        // result = str1.replaceAll("\\d", "");
+        // System.out.println(result); 
 
 
         // **** substring(index , index);
