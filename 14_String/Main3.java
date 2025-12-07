@@ -157,6 +157,7 @@ public class Main3{
         // ******* valueOf()  ************** 
         /**
          * Here, valueOf() is a static method . We call the valueof() method using the class name like this:    String.valueOf(b);
+         * it converts anything into string 
          */
 
     // int a = 5;
@@ -211,8 +212,8 @@ public class Main3{
     
     // String s = "abc";
     // StringBuffer sb = new StringBuffer("abc");
-    // System.out.println(s.contentEquals(sb)); 
-    // System.out.println(s.equals(sb)); 
+    // System.out.println(s.contentEquals(sb)); // checks character-by-character content,
+    // System.out.println(s.equals(sb)); // equals() in String only returns true if: The object is also a String, AND The content is equal.
     // System.out.println(s.equals(sb.toString())); 
 
     // String s1 = new String("abc");
@@ -223,7 +224,7 @@ public class Main3{
 
 
     // String result;
-    // result = String.join("-", "Java", "is", "fun");
+    // result = String.join("-", "Java", "is", "fun"); // delemeter and then arguments
     // System.out.println(result);  // Java-is-fun
 
     // ********** String.format() ******** 
