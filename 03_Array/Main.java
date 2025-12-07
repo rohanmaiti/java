@@ -29,7 +29,7 @@ public class Main{
         // System.out.println("address of positiveNumbers Array"+" : "+numbers);
         // And it will  work
         // int arr2[] = new int[]{0,2,3,4,5};
-        // numbers = arr2;
+        // numbers = arr2; // this copies the referance, changing any array will effect in other (shallow copy)
         // System.out.println("PositiveNumbers"+Arrays.toString(positiveNumbers));
         // System.out.println("Numbers"+Arrays.toString(numbers));
 
@@ -39,7 +39,7 @@ public class Main{
         // }
         // System.out.println(); 
 
-        // * like c++ auto datatype here in java we have var
+        // * like c++ auto datatype here, in java we have var
         // var a = 10;
         // System.out.println(a);
         // a = "Rohan";  // onece assigned to a type cant be assigned to a different type 
@@ -51,7 +51,7 @@ public class Main{
         // hence change in any array will affect the 2nd array... this is called // * shallow copy 
         // copying each value to a new array by loop is //* Deep copy */
         
-        // * System.arraycopy() method 
+        // * System.arraycopy() method --> deep copy 
         // * syntax : 
         // * System.arraycopy(sourceArray_name, source_array_starting_index, destination_array_name, destination_array_starting_index, length_to_copy);
         // example 
