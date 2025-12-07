@@ -170,7 +170,7 @@ public class Main3{
     // System.out.println(String.valueOf(l));  // "-2343834"
     // System.out.println(String.valueOf(f));  // "23.4"
     // System.out.println(String.valueOf(d));  // "923.234"
-    // System.out.println(String.valueOf(b));  // true;
+    // System.out.println(String.valueOf(b));  // "true";
 
 
     // char c = 'J';
