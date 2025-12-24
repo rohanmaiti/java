@@ -20,7 +20,7 @@
 
  // when we create a String variable without using new keyword like// * String str = "abc";
  // the str variable get space in the stack, next the JVM search "abc" in the SCP, if not found, creates a record of "abc" and store the address in str. 
- // * so next time you create a same string like --> String s2 = "abc", JVM do not create a another object in the heap area (SCP)
+ // * so next time you create a same string like --> String s2 = "abc", JVM do not create a another object in the heap area SCP
  // * it checks weather the exact string exists in SCP or not as in this case "abc" is already created so it returns the address of "abc" from SCP 
  // * so now both s2 and str is pointing to a single object .... this way java manage memory efficiently 
 
